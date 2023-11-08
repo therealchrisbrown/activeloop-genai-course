@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+from dotenv import load_dotenv #By using dotenv, you can safely store sensitive information, such as API keys, in a separate file and avoid accidentally exposing it in your code. This is particularly important when working with open-source projects or sharing your code with others, as it ensures that the sensitive information remains secure.
 load_dotenv()
 
 import os
